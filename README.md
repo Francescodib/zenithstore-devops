@@ -295,4 +295,4 @@ MIT
 
 ## Autore
 
-ZenithStore Team - Progetto didattico DevOps
+Francesco di Biase - Francescodibiase.com

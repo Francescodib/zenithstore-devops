@@ -11,7 +11,7 @@
     "lint": "eslint src/"
   },
   "keywords": ["ecommerce", "devops", "express", "monitoring"],
-  "author": "ZenithStore Team",
+  "author": "Francesco di Biase",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
