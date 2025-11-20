@@ -55,13 +55,13 @@ const carts = new Map();
 const orders = [];
 let orderIdCounter = 1000;
 
+function getNextOrderId() {
+  return ++orderIdCounter;
+}
+
 module.exports = {
   products,
   carts,
   orders,
-  orderIdCounter,
-
-  getNextOrderId() {
-    return ++this.orderIdCounter;
-  }
+  getNextOrderId
 };

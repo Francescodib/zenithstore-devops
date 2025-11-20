@@ -55,14 +55,16 @@ describe('Orders API', () => {
 
   describe('GET /api/orders/:userId/:orderId', () => {
     it('should return specific order', async () => {
+      const uniqueUserId = 'test-user-orders-' + Date.now();
+
       await request(app)
-        .post(`/api/cart/${testUserId}/add`)
+        .post(`/api/cart/${uniqueUserId}/add`)
         .send({ productId: 1, quantity: 1 });
 
-      const orderRes = await request(app).post(`/api/orders/${testUserId}`);
+      const orderRes = await request(app).post(`/api/orders/${uniqueUserId}`);
       const orderId = orderRes.body.data.orderId;
 
-      const res = await request(app).get(`/api/orders/${testUserId}/${orderId}`);
+      const res = await request(app).get(`/api/orders/${uniqueUserId}/${orderId}`);
 
       expect(res.statusCode).toBe(200);
       expect(res.body.success).toBe(true);
