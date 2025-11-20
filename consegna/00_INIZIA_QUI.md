@@ -196,7 +196,7 @@ docker-compose -f docker-compose.dev.yml down
 
 **Repository**: https://github.com/Francescodib/zenithstore-devops
 **Issues**: https://github.com/Francescodib/zenithstore-devops/issues
-**Email**: francesco.dibiase@example.com
+**Email**: fran.dibiase@gmail.com
 
 ---
 

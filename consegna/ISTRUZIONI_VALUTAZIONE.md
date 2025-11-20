@@ -346,7 +346,7 @@ docker inspect zenithstore-app-dev | grep Health
 Per domande o chiarimenti:
 - **Repository**: https://github.com/Francescodib/zenithstore-devops
 - **Issues**: https://github.com/Francescodib/zenithstore-devops/issues
-- **Email**: francesco.dibiase@example.com
+- **Email**: fran.dibiase@gmail.com
 
 ---
 

@@ -73,7 +73,7 @@ SUPPORTO
 --------
 Per domande o problemi:
 - Issues: https://github.com/Francescodib/zenithstore-devops/issues
-- Email: francesco.dibiase@example.com
+- Email: fran.dibiase@gmail.com
 
 ================================================================================
 STATO: PROGETTO COMPLETO E VALIDATO ✓
