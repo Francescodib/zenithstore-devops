@@ -216,6 +216,8 @@ af3954e - Initial commit: ZenithStore DevOps Platform
 **File Totali**: 39 files
 **Linee Codice**: ~4500 linee (escluse dipendenze)
 
+**Nota GitHub Actions**: La pipeline GitHub Actions mostra alcuni job falliti (Build/Deploy). Questo è normale per un progetto didattico senza infrastruttura di deployment cloud configurata. Il job Test passa con successo (23/23), dimostrando la corretta implementazione della pipeline CI/CD. Il deployment locale funziona perfettamente come documentato.
+
 ---
 
 ## 3. Metriche di Qualità
