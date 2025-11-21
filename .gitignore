@@ -16,3 +16,5 @@ docker-volumes/
 dist/
 build/
 .claude/
+consegna/
+*.zip

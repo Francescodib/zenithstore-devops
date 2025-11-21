@@ -15,4 +15,3 @@ docker-volumes/
 *.log
 dist/
 build/
-.claude/
